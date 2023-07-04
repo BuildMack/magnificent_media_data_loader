@@ -1,0 +1,32 @@
+datadump:
+  location:
+    author: /Users/macksell/Desktop/FUCKOFF/test-authors.txt
+    works: /Users/macksell/Desktop/FUCKOFF/test-works.txt
+
+spring:
+    cassandra:
+      keyspace-name: main
+      username: HCiHTCOztynPMMZuJsiRTIwD
+      password: Q57.-J..cv9f4.cki_n.21AIl7BvDlM4DlyZGXxOpXT_FGZ29Z6teYYDS2c0WA67b.4uFuAa-4qpp2r06mleozBHX+t6CCaIMt,jdJw7mXimRS,ZwGdp3fJDlLBPzUvB
+      schema-action: recreate
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+    devtools:
+        livereload:
+            enabled: false
+            port: 35730
+
+datastax.astra:
+    secure-connect-bundle: secure-connect.zip
+
+astra.db:
+    id: 34127a77-5661-4e8a-913d-b5cc9a90bfda-1
+    region: us-east1
+    keyspace: main
+    application.token: AstraCS:HCiHTCOztynPMMZuJsiRTIwD:55942f80d1e98b13ccb42a0ac341097f020e7ac67408ec7a6c49f8204e1a0b85
+
+spring.main.allow-circular-references: true
+
