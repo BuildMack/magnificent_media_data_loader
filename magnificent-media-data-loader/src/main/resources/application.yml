@@ -1,7 +1,7 @@
 datadump:
   location:
-    author: /Users/macksell/Desktop/FUCKOFF/test-authors.txt
-    works: /Users/macksell/Desktop/FUCKOFF/test-works.txt
+    author: /Users/macksell/Desktop/datadumps/test-authors.txt
+    works: /Users/macksell/Desktop/datadumps/test-works.txt
 
 spring:
     cassandra:
