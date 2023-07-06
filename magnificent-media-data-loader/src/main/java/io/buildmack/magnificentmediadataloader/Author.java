@@ -9,7 +9,7 @@ import org.springframework.data.cassandra.core.mapping.Table;
 import org.springframework.data.cassandra.core.mapping.CassandraType.Name;
 import java.util.Objects;
 
-@Table(value = "author_a")
+@Table(value = "author_z")
 public class Author {
     
     @Id @PrimaryKeyColumn(name = "author_id", ordinal = 0, type = PrimaryKeyType.PARTITIONED)
